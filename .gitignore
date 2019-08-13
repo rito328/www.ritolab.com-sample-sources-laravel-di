@@ -10,9 +10,6 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 
-app/Components/*
-app/Services/*
-app/Http/Controllers/SampleController.php
 .env.testing
 .env.dusk.local
 phpcs.xml
