@@ -13,7 +13,6 @@ class SampleController extends Controller
 
     public function __construct(SampleService $SampleService)
     {
-        // サービスプロバイダで返すインスタンスが入る
         $this->SampleService = $SampleService;
     }
 
@@ -22,7 +21,3 @@ class SampleController extends Controller
         $this->SampleService->index();
     }
 }
-
-
-
-
