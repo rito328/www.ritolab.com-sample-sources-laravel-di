@@ -18,6 +18,6 @@ class SampleController extends Controller
 
     public function index()
     {
-        $this->SampleService->index();
+        echo $this->SampleService->index();
     }
 }
