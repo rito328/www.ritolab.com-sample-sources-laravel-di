@@ -15,4 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/cul', 'CalculationController@index');
 Route::get('/sample', 'SampleController@index');
