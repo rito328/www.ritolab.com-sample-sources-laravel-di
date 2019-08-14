@@ -14,8 +14,6 @@ class SampleService
 
     public function index()
     {
-        $result = $this->SampleComponent->execute();
-
-        echo $result;
+        return  $this->SampleComponent->execute();
     }
 }
